@@ -80,6 +80,10 @@ const send_ether_with_web3 = async (userWalletAddress, userWalletPK, amountToSen
   // process.exit();
 };
 
+router.get('/', function(req, res, next) {
+  res.send('please use /api/v1 to make api calls');
+});
+
 router.post('/buyToken', function(req, res, next) {
   try{
     send_ether_with_web3(req.body.userWalletAddress, req.body.userWalletPK, req.body.amountToSend);
