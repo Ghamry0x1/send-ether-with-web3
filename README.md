@@ -12,10 +12,7 @@ Then, create a file named `.env` and save it to the root directory of the projec
 ### .env
 
 INFURA_ACCESS_TOKEN=xxxxxx
- 
-WALLET_ADDRESS=xxxxxx
-WALLET_PRIVATE_KEY=xxxxxx
- 
+
 DESTINATION_WALLET_ADDRESS=xxxxxx
 
 
